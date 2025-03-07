@@ -1,22 +1,16 @@
 
 # Xsens MTi ROS2 Driver and Ntrip Client
 
-[中文 (Chinese)](README.zh.md)
-
-This code was based on the official Xsens 2025.0 [Open source Xsens Device API](https://base.movella.com/s/article/Introduction-to-the-MT-SDK-programming-examples-for-MTi-devices) tested on MTi-680G/MTi-8/MTi-630/MTi-300 with ROS2 Humble at Ubuntu 22.04.3 LTS .
+This code was based on the official Xsens 2025.0 [Open source Xsens Device API](https://base.movella.com/s/article/Introduction-to-the-MT-SDK-programming-examples-for-MTi-devices) tested on MTi-680 with ROS2 Humble at Ubuntu 22.04.3 LTS .
 
 ## ROS vs ROS2 Versions
 
 Note that this branch contains the `ROS2` implementation that is compatible for `Humble` and `Jazzy`. 
 
-If you are looking for the `ROS1` version, you should go to the [`main`](https://github.com/xsenssupport/Xsens_MTi_ROS_Driver_and_Ntrip_Client/tree/main) branch.
-
-And if you are looking for the `ROS2 Foxy` version, you should go to the [`ros2-foxy`](https://github.com/xsenssupport/Xsens_MTi_ROS_Driver_and_Ntrip_Client/tree/ros2-foxy) branch.
-
 ## How to clone this ROS2 branch
 
 ```
-git clone --recursive --branch ros2 https://github.com/xsenssupport/Xsens_MTi_ROS_Driver_and_Ntrip_Client.git
+git clone --recursive --branch ros2 https://github.com/SmartDrive-UniPi/Xsens_MTi_ROS_Driver_and_Ntrip_Client.git
 ```
 
 ## Device Settings - Output Configurations
